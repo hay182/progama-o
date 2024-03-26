@@ -27,15 +27,39 @@ nav{
     font-size: 20px;
     text-decoration: none;
 }
-/*parte principal do site */
-/*coloca os produtos um aolado do outro*/
+nav a:hover{
+    color: #c78c19; 
+    text-decoration: underline;
+}
 .produtos{
     width: 940px;
     margin: 0 auto;
+    padding: 50px;
 }
-.produtos{
+.produtos li{
     display: inline-block;
     text-align: center;
     width: 30%;
     vertical-align: top;
+    margin: 0 1.2%;
+    padding: 20px 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.produtos li:hover{
+   border-color: #c78c19;
+}
+.produtos li:hover h2{
+    font-size: 35px;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produtos-descricao{
+    font-size: 18px;
+}
+.produtos-preco{
+    font-size: 22px;
+    font-weight: bold;
 }
