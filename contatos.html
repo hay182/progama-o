@@ -22,24 +22,24 @@
 <main>
     <form>
         <label for="nomeSobrenome">Nome e Sobrenome</label>
-        <input type="text" id="nomeSobrenome" class="input-padrao".>
+        <input type="text" id="nomeSobrenome" class="input-padrao" required>
 
         <label for="email">Email</label>
-        <input type="text" name="" id="email" class="input-padrao">
+        <input type="email" name="" id="email" class="input-padrao" required placeholder="email"> 
 
         <label for="telefone">Telefone</label>
-        <input type="text" id="telefone" class="input-padrao">
+        <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)xxxx-xxxx">
         
         <label for="mensagem">Mensagem</label>
         <textarea name="" id="mensagem" cols="65" rows="10"></textarea>
 
         <div>
             <p>Como prefere noso contato?</p>
-            <label for="radio-email"> <input type="radio" name="contato" id="radio-email">Email</label>
+            <label for="radio-email"> <input type="radio" name="contato" id="radio-email"> Email</label>
 
-            <label for="radio-telefone"> <input type="radio" name="contato" id="radio-telefone">Telefone</label>
+            <label for="radio-telefone"> <input type="radio" name="contato" id="radio-telefone"> Telefone</label>
 
-            <label for="radio-whatsapp">  <input type="radio" name="contato" id="radio-whatsapp">Whatsapp</label>
+            <label for="radio-whatsapp">  <input type="radio" name="contato" id="radio-whatsapp" checked> Whatsapp</label>
         </div>
         <div>
             <p>Qual horário prefere ser atendido?</p>
@@ -49,9 +49,9 @@
                 <option>Noite</option>
             </select>
         </div>
-        <label class="checkbox"><input type="checkbox" name="" id="">Gostaria de receber nossas novidades por e-mail?</label>
+        <label class="checkbox"><input type="checkbox" name="" id="" checked>Gostaria de receber nossas novidades por e-mail?</label>
 
-        <input type="submit" value="Enviar Formlário">
+        <input type="submit" value="Enviar Formlário" class="enviar">
 
     </form>
 </main>
