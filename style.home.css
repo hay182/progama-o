@@ -1,19 +1,16 @@
-
+    h1, p{
+        text-align: center;
+    }
     body{
         background-color: #cccccc;
     }
-
     img{
-        width: 50%;
+        width: 100%;
     }
     .titulo-principal{
         padding: 20px;
     }
     .titulo-centralizado{
-        text-align: center;
-    }
-
-    h1, p{
         text-align: center;
     }
     em{
